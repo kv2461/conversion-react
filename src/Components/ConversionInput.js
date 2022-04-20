@@ -27,7 +27,7 @@ export default class ConversionInput extends React.Component {
          <div>
           { /* Change code below this line */ }
         <GetInput input={this.state.inputValue} handleChange= {this.handleChange} handleClick={this.handleClick} className={this.state.clicked?"clicked":"notclicked"}/>
-        <GetInput input={this.state.inputValue} handleChange= {this.handleChange} handleClick={this.handleClick}/>
+        <GetInput input={this.state.inputValue*2} handleChange= {this.handleChange} handleClick={this.handleClick}/>
         <RenderInput input={this.state.inputValue}/>
           { /* Change code above this line */ }
          </div>
